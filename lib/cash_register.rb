@@ -21,7 +21,7 @@ class CashRegister
      end
 
      quantity.times do
-       @prices << price
+       @prices << price * quantity
      end
   end
 
